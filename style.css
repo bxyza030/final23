@@ -1,0 +1,98 @@
+body {
+    background-image: url('img/infographic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    max-width: 1364px;
+    height: 278vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 32px;
+    top: 0;
+    width: 90%;
+}
+
+header img {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+nav {
+    height: 80px;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    height: 100%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'sharp sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 80px;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(138, 191, 209);
+}
+
+#section1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#section2 {
+    position: relative;
+    top: 270vh;
+}
+
+#section3 {
+    position: relative;
+    top: 170vh;
+}
+
+#section4 {
+    position: relative;
+    top: 75vh;
+}
+
+#section5 {
+    position: relative;
+    top: 1vh;
+}
+
+p {
+    color: white;
+    font-family: 'sharp sans', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+
+button {
+    font-family: 'sharp sans', sans-serif;
+    border: solid 1px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin-left: 100px;
+}
